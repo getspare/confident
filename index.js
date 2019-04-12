@@ -54,7 +54,8 @@ module.exports = function (options) {
       apiSpecification,
       options.operations,
       options.ajvOptions || {},
-      options.onRequestValidationError
+      options.onRequestValidationError,
+      options.defaultRouteHandler
     )
   )
 
